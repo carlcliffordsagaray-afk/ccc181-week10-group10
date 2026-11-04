@@ -17,7 +17,7 @@
   color: var(--muted);
 }
 
-/* FORM (Flexbox, a COLUMN) */
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
   min-width: 0;
   min-height: 48px;
   padding: 0.75rem;
-  font-size: 1rem; /* 16px: stops iOS Safari from zooming in */
+  font-size: 1rem; 
   font-family: inherit;
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -52,7 +52,7 @@
 
 .password-row {
   display: flex;
-  gap: 0.5rem; /* input + Show button in ONE row */
+  gap: 0.5rem; 
 }
 
 .password-row input {
@@ -71,7 +71,7 @@
   color: var(--success);
   background: #e7f6ec;
   border-radius: var(--radius);
-  overflow-wrap: anywhere; /* long emails never cause sideways scroll */
+  overflow-wrap: anywhere; 
 }
 
 .form-options {
@@ -187,4 +187,22 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .login-card {
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 2rem;
+  }
+
+  .form-options {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .alt-actions {
+    flex-direction: row; 
+  }
 }
