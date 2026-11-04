@@ -72,8 +72,7 @@
 
 .footer-col p {
   margin: 0 0 0.5rem;
-  overflow-wrap: anywhere; /* long email never causes sideways scroll */
-}
+  overflow-wrap: anywhere; }
 
 .footer-links {
   list-style: none;
@@ -97,4 +96,29 @@
   margin-top: 1rem;
   margin-bottom: 0;
   font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .nav-list {
+    flex-direction: row;
+    gap: 0.5rem; 
+  }
+}
+
+Commit 4 (paste at the end). Message: nav: three-column footer grid from 1024px
+
+css
+
+
+@media (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
