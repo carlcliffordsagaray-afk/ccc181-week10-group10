@@ -33,7 +33,7 @@ npm run build        # must finish with no errors before you submit
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
 | 2 | | | `nav.css` | |
-| 3 | | | `form.css` | |
+| 3 |Developer|John Xyrel C. Vanguardia|johnxyrelvanguardia-cmd | `form.css` |Wrote form.css (mobile-first Flexbox login card, 48px touch-friendly fields and buttons, hover and focus-visible styles) with breakpoints at 768 and 1024 px. |
 
 ## Experiment 0: the page without the viewport tag
 
@@ -55,7 +55,13 @@ What changed **after** adding it?
 
 Using **Show media queries** and dragging slowly from 360 px to 1280 px, the layout changed at these exact widths:
 
-> (write the widths here, and say whether any width looked broken)
+> Using Show media queries and dragging slowly from 360 px to 1280 px, the layout changed at these exact widths:
+
+- 768 px: the nav changed to one row (brand left, links right), the checkbox and "Forgot password?" moved side by side, the two bottom buttons moved side by side, and the login card became capped at 32rem and centered.
+- 1024 px: the brand panel and login card moved side by side in two columns, the heading grew to 2.5rem, the perks list appeared, and the footer changed to three columns.
+- 1280 px: the content stopped stretching and stayed centered at a maximum width of 1200 px.
+
+No width looked broken. There was no sideways scrollbar at any width, including when the error and success messages were showing.
 
 Screenshots are in `screenshots/` as `360.png`, `768.png`, `1024.png`, `1280.png`.
 
