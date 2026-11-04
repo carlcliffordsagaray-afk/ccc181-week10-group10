@@ -32,15 +32,14 @@ npm run build        # must finish with no errors before you submit
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
-| 2 | | | `nav.css` | |
-| 3 |Developer|John Xyrel C. Vanguardia|johnxyrelvanguardia-cmd | `form.css` |Wrote form.css (mobile-first Flexbox login card, 48px touch-friendly fields and buttons, hover and focus-visible styles) with breakpoints at 768 and 1024 px. |
-
+| 2 |Andrei Jumao-as |andreijumao-as-commits | `nav.css` | |
+| 3 |John Xyrel Vanguardia|johnxyrelvanguardia-cmd | `form.css` |
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
 What changed **after** adding it?
 
-> (write your answer here)
+> Before adding the viewport meta tag, the page in DevTools phone mode (iPhone SE) looked zoomed out and tiny. The browser treated the screen as about 980 px wide and shrank the whole page to fit, so the text was very small and the phone layout (stacked nav, single column) did not appear as designed. After adding <meta name="viewport" content="width=device-width, initial-scale=1" /> to index.html and refreshing, the page used the real phone width (about 360 px). The text became readable, the nav links stacked, and the mobile CSS applied correctly.
 
 ## DevTools test results
 
