@@ -32,7 +32,7 @@ npm run build        # must finish with no errors before you submit
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
-| 2 |Andrei Jumao-as |andreijumao-as-commits | `nav.css` | |
+| 2 |Andrei Jumao-as |andreijumao-as-commits | `nav.css` |Wrote nav.css (mobile-first Flexbox navbar and CSS Grid footer, 48px touch-friendly links, hover and focus-visible styles) with breakpoints at 768 and 1024 px. |
 | 3 |John Xyrel Vanguardia|johnxyrelvanguardia-cmd | `form.css` |Wrote form.css (mobile-first Flexbox login card, 48px touch-friendly fields and buttons, hover and focus-visible styles) with breakpoints at 768 and 1024 px.|
 ## Experiment 0: the page without the viewport tag
 
