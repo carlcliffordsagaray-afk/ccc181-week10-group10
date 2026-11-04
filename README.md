@@ -33,7 +33,7 @@ npm run build        # must finish with no errors before you submit
 | --- | --- | --- | --- | --- |
 | 1 (leader) | | | `base.css` | |
 | 2 |Andrei Jumao-as |andreijumao-as-commits | `nav.css` | |
-| 3 |John Xyrel Vanguardia|johnxyrelvanguardia-cmd | `form.css` |
+| 3 |John Xyrel Vanguardia|johnxyrelvanguardia-cmd | `form.css` |Wrote form.css (mobile-first Flexbox login card, 48px touch-friendly fields and buttons, hover and focus-visible styles) with breakpoints at 768 and 1024 px.|
 ## Experiment 0: the page without the viewport tag
 
 What did the page look like in DevTools phone mode **before** adding the viewport meta tag?
