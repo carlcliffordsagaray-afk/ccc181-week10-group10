@@ -51,3 +51,13 @@
 .brand-panel__perks {
   display: none; /* phones show only what matters most */
 }
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 2rem;
+  }
+
+  .brand-panel {
+    padding: 2rem;
+  }
+}
