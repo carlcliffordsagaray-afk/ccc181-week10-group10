@@ -23,15 +23,15 @@ npm run build        # must finish with no errors before you submit
 
 | Item | Your answer |
 | --- | --- |
-| Group number | |
-| Section | |
-| Repository URL | |
+| Group number |2|
+| Section |IT3-A |
+| Repository URL | https://github.com/carlcliffordsagaray-afk/ccc181-week10-group2 |
 
 ## Members (each member fills in their own row in their own commit)
 
 | Member | Name | GitHub username | CSS file | What I did |
 | --- | --- | --- | --- | --- |
-| 1 (leader) | | | `base.css` | |
+| 1 (leader) |Carl Clifford Sagaray |carlcliffordsagaray-afk| `base.css` |Wrote base.css (mobile-first CSS Grid layout, brand panel, container) with breakpoints at 768, 1024 and 1280 px. Added the viewport meta tag and set up the GitHub repository.|
 | 2 |Andrei Jumao-as |andreijumao-as-commits | `nav.css` |Wrote nav.css (mobile-first Flexbox navbar and CSS Grid footer, 48px touch-friendly links, hover and focus-visible styles) with breakpoints at 768 and 1024 px. |
 | 3 |John Xyrel Vanguardia|johnxyrelvanguardia-cmd | `form.css` |Wrote form.css (mobile-first Flexbox login card, 48px touch-friendly fields and buttons, hover and focus-visible styles) with breakpoints at 768 and 1024 px.|
 ## Experiment 0: the page without the viewport tag
@@ -66,4 +66,6 @@ Screenshots are in `screenshots/` as `360.png`, `768.png`, `1024.png`, `1280.png
 
 ## What our group learned (leader writes this last)
 
-> (write your answer here)
+> In this activity we learned how mobile-first design works: we wrote the phone styles first with no media query, then used only min-width media queries at 768, 1024 and 1280 px to add layout as the screen got wider. We practiced CSS Grid for the page layout and footer and Flexbox for the navbar and form, and we used rem and % units so the page scales well. We also learned why the viewport meta tag is needed, since without it phones shrink the page instead of using the real screen width. For touch-friendly design, we made every link, button and input at least 48 px tall, used 16 px input text, and gave every :hover style a matching :focus-visible style. We tested the page in Chrome DevTools at 360, 768, 1024 and 1280 px.
+
+The hardest part for our group was the GitHub workflow. At first we struggled with creating pull requests and merging our CSS files, because we were not used to working on separate branches, having a different teammate review each pull request, and then pulling the merged changes into main. Along the way we learned that each member should work only in their own file and branch, that commits must be made from our own GitHub accounts, and that we should run git pull after every merge so everyone has the latest code. By the end, we were able to open, review and merge our pull requests and combine our three CSS files into one working page.
